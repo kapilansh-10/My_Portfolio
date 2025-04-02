@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding: 0;
+}
+
+/* Header Section */
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;   
+    padding: 10px; /* Adds space inside the header */
+    /* text-align: center; */
+}
+
+h1 {
+    padding-left: 35px;
+}
+
+
+/* Navigation Items */
+
+nav ul li {
+    display: inline; /* Block & inline: Makes list items appear in row */
+    padding: 20px;
+    /* text-align: center; */
+    /* text-align: center; */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* About Section */
+
+#about {
+    text-align: center; /* Centers content */
+    padding: 20px; /* Add spacing */
+}
+
+/* Profile Image */
+
+#about img {
+    width: 150px; /* Sets the image size */
+    border-radius: 50%; /* Makes image circular */
+}
+
+/* Projects section */
+
+#projects ul {
+    list-style: square; /* Changes bullet style */
+    padding-left: 5px; /* Moves list to right */
+    list-style: none;
+    font-size: 17px;
+}
+
+#projects ul :hover {
+    color: red;
+    cursor:pointer;
+}
+
+#projects {
+    text-align: center;
+}
+
+/* contact section */
+
+#contact {
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
